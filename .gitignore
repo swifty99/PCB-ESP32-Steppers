@@ -1,4 +1,10 @@
 # KiCad temporäre und Backup-Dateien
+*.csv
+*-cache
+*-table
+*-bak
+*.lck
+*.zip
 *.bak
 *.tmp
 *.kicad_prl
@@ -12,7 +18,3 @@ autosave-*
 *.gbo
 *.drl
 # 3D-Modelle (falls nicht lokal benötigt)
-*.step
-*.stl
-*.wrl
-
