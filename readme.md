@@ -57,7 +57,7 @@ The schematic and PCB design files were created using **KiCad** and can be found
 
 For controlling the board, **FluidNC** is recommended. FluidNC is open-source firmware designed for CNC machines and motion control projects. It supports various motion control features and is easy to configure for your specific needs.
 
-- **FluidNC Firmware**: [FluidNC GitHub Repository](https://github.com/FluidNC/FluidNC)
+- **FluidNC Firmware**: [FluidNC]([https://github.com/FluidNC/FluidNC](http://wiki.fluidnc.com))
 
 ---
 
