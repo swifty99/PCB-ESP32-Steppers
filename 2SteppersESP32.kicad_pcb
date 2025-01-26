@@ -14893,8 +14893,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Dallas"
-		(at 146.92 83.7 -90)
+	(gr_text "Digi IO"
+		(at 146.92 83.7 270)
 		(layer "F.SilkS")
 		(uuid "f1c4048d-3e47-4fd5-b9a4-248a6bda1ebe")
 		(effects
@@ -14902,6 +14902,30 @@
 				(size 1 1)
 				(thickness 0.2)
 			)
+		)
+	)
+	(gr_text "28V Max!"
+		(at 204.5 100 90)
+		(layer "F.Mask")
+		(uuid "0173c31a-703c-4298-bffa-91f6ebacf172")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Set to 5v\nBEFORE inserting."
+		(at 170 98.5 90)
+		(layer "F.Mask")
+		(uuid "34ba336b-ca9e-48dd-98bb-28c10b1c3d5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(segment
