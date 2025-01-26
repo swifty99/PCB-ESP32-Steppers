@@ -1,0 +1,18 @@
+# KiCad temporäre und Backup-Dateien
+*.bak
+*.tmp
+*.kicad_prl
+*-cache.lib
+*-backup*
+autosave-*
+# Gerber- und Fertigungsdaten
+*.gbr
+*.gtl
+*.gbl
+*.gbo
+*.drl
+# 3D-Modelle (falls nicht lokal benötigt)
+*.step
+*.stl
+*.wrl
+
