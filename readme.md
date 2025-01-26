@@ -32,6 +32,7 @@ Some prototypes. The final version is better but not yet produces
 - Two MosFETs for switching high power devices.
 - Power supply support for up to **28V** (requires a mini DC-DC converter to be soldered onto the board).
 - Compatible with **FluidNC** firmware for motion control applications.
+- Or use with ESPHome with custom component from [SlimCDK](https://github.com/slimcdk/esphome-custom-components)
 
 ---
 
@@ -70,15 +71,6 @@ For controlling the board, **FluidNC** is recommended. FluidNC is open-source fi
 
 ---
 
-## How to Use
-
-1. **Download and Install FluidNC**: Follow the instructions in the [FluidNC GitHub repository](https://github.com/FluidNC/FluidNC) to install and configure the firmware.
-2. **Upload the Firmware**: Upload the configured FluidNC firmware to your ESP32 DevKit board using the Arduino IDE or PlatformIO.
-3. **Connect to the Board**: Connect your stepper motors and any peripherals (e.g., sensors, switches) to the board.
-4. **Configure FluidNC**: Update the configuration file for FluidNC based on your specific hardware setup (e.g., stepper drivers, motor specs, etc.).
-5. **Start Motion Control**: Begin controlling your stepper motors through the FluidNC interface!
-
----
 
 ## License
 
