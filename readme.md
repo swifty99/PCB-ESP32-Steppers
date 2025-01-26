@@ -9,12 +9,12 @@ For control, the board is compatible with **FluidNC** firmware, which is a great
 ### Project Images
 
 #### Real Picture of the PCB
-![Real Picture](path/to/your/real-picture.jpg)
+![Real Picture](images/pcb_prototypes.jpeg)
 
 This is the actual finished PCB that you will build using the design files.
 
 #### 3D Screenshot of the PCB
-![3D Screenshot](path/to/your/3d-screenshot.png)
+![3D Screenshot](images/2SteppersESP32.png)
 
 This 3D view shows the layout and components of the PCB design in KiCad.
 
