@@ -8,15 +8,17 @@ For control, the board is compatible with **FluidNC** firmware, which is a great
 
 ### Project Images
 
-#### Real Picture of the PCB
-![Real Picture](images/pcb_prototypes.jpeg)
-
-This is the actual finished PCB that you will build using the design files.
-
 #### 3D Screenshot of the PCB
 ![3D Screenshot](images/2SteppersESP32.png)
 
 This 3D view shows the layout and components of the PCB design in KiCad.
+
+#### Real Picture of the PCB
+![Real Picture](images/pcb_prototypes.jpeg)
+
+Some prototypes. The final version is better but not yet produces
+
+
 
 ---
 
@@ -27,6 +29,7 @@ This 3D view shows the layout and components of the PCB design in KiCad.
   - Simple stepper drivers (e.g., A4988, DRV8825).
   - Advanced **Fysetc Trinamic drivers**.
 - Additional **I2C** and **IO** connectors for extra peripherals.
+- Two MosFETs for switching high power devices.
 - Power supply support for up to **28V** (requires a mini DC-DC converter to be soldered onto the board).
 - Compatible with **FluidNC** firmware for motion control applications.
 
@@ -46,6 +49,7 @@ The schematic and PCB design files were created using **KiCad** and can be found
    - Basic drivers: A4988, DRV8825, etc.
    - Advanced drivers: Fysetc Trinamic drivers (e.g., TMC2209, TMC2208).
 4. **Stepper motors** for controlling motion.
+5. XT30 plug for solid power Supply
 
 ---
 
